@@ -102,15 +102,17 @@ class Contenedor{
     }
 }
 
-let nameArchivo = ('productos.txt');
+module.exports = Contenedor
 
-let newObj = {
-    "title": "Papaya",
-    "price": 1000,
-    "thumbnail": "foto3.png"
-};
+// let nameArchivo = ('productos.txt');
 
-const c = new Contenedor(nameArchivo);
+// let newObj = {
+//     "title": "Papaya",
+//     "price": 1000,
+//     "thumbnail": "foto3.png"
+// };
+
+// const c = new Contenedor(nameArchivo);
 
 // c.save(newObj)
 // c.getById(0)
